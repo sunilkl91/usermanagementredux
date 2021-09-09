@@ -91,7 +91,6 @@ class Registration extends React.Component {
     let fields = this.state.fields;
     fields[field] = e.target.value;
     this.setState({ fields });
-    this.handleValidation()
   }
   render() {
     return (
